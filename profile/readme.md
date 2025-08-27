@@ -1,7 +1,6 @@
 # 모여봐요 정보섬 🏝️
 
 ![University](https://img.shields.io/badge/University-Soongsil-blue)
-![Team](https://img.shields.io/badge/Team-모여봐요정보섬-brightgreen)
 
 ## 🏝️ About Us
 
