@@ -2,7 +2,6 @@
 
 ![University](https://img.shields.io/badge/University-Soongsil-blue)
 ![Team](https://img.shields.io/badge/Team-모여봐요정보섬-brightgreen)
-![Hackathon](https://img.shields.io/badge/Hackathon-UNITHON-orange)
 
 ## 🏝️ About Us
 
