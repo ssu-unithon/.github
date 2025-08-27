@@ -192,23 +192,23 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 
 ### 🏠 홈
 <div align="center">
-  <img src="../screenshots/home.png" width="50%" alt="홈">
+  <img src="../screenshots/home.png" width="30%" alt="홈">
 </div>
 
 ### 📈 리포트
 <div align="center">
-  <img src="../screenshots/report.png" width="50%" alt="리포트">
+  <img src="../screenshots/report.png" width="30%" alt="리포트">
 </div>
 
 ### 💬 AI 챗봇
 <div align="center">
-  <img src="../screenshots/chat.png" width="50%" alt="AI 챗봇">
+  <img src="../screenshots/chat.png" width="30%" alt="AI 챗봇">
 </div>
 
 ### 🧑‍🧑‍🧒‍🧒 가족 구성원 관리
 <div align="center">
-  <img src="../screenshots/managing.png" width="50%" alt="가족 구성원 관리">
-  <img src="../screenshots/medicine.png" width="50%" alt="구성원 약물 관리">
+  <img src="../screenshots/managing.png" width="30%" alt="가족 구성원 관리">
+  <img src="../screenshots/medicine.png" width="30%" alt="구성원 약물 관리">
 </div>
 
 ---
