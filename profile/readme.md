@@ -113,57 +113,6 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 
 ---
 
-### 📊 시장 분석 및 경쟁우위
-
-#### **시장 규모 (TAM-SAM-SOM)**
-- **TAM**: 국내 65세 이상 다약제 복용자 약 350만 명
-- **SAM**: 스마트폰 사용 시니어 약 255만 명 (스마트폰 보급률 73%)
-- **SOM**: 보호자 연동 수요 높은 가구 약 12.7만 명 (점유율 5% 가정)
-
-#### **경쟁사 대비 차별화 전략**
-
-| 서비스 | 개인 헬스케어 | 가족 연동 | AI 상호작용 분석 | 시니어 특화 UX |
-|--------|:-------------:|:---------:|:----------------:|:-------------:|
-| **Pillink** | ✅ | ✅ | ✅ | ✅ |
-| Medisafe | ✅ | ⚠️ | ❌ | ❌ |
-| MyTherapy | ✅ | ⚠️ | ❌ | ❌ |
-| 스마트 DUR | ❌ | ❌ | ⚠️ | ❌ |
-
-**핵심 차별점**: 
-- 💊 **통합 관리**: 복약 알람 + 상호작용 분석 + 가족 모니터링 원스톱 솔루션
-- 👥 **실시간 연동**: 보호자-대상자 양방향 실시간 커뮤니케이션
-- 🧠 **AI 기반**: KPIC 데이터 + 머신러닝을 통한 개인화된 위험도 분석
-
----
-
-## 💰 비즈니스 모델
-
-### **수익 구조**
-#### 1차 (시장진입): B2C 프리미엄 구독제
-```
-무료 버전:
-- 기본 알람 기능
-- AI 챗봇
-- 최대 보호 대상자 2명
-
-프리미엄 버전 (월 5,400원):
-- AI 약물 상호작용 분석
-- 보호 대상자 인원 제한 없음
-- 고급 리포트 및 통계
-```
-
-#### 2차 (시장 확대): B2B 제휴 확장
-- **약국/의료기관 제휴**: 복약 지도 서비스 패키지
-- **보험사 연계**: 건강관리 부가서비스 제공
-- **데이터 수익화**: 익명화된 복약 패턴 데이터 분석 리포트 판매
-
-### **성장 전략**
-1. **1-3개월**: 대학생 네트워크 → 가족 추천을 통한 유기적 확산
-2. **6개월**: 지역 약국 및 지자체 복지센터 제휴
-3. **1년 이후**: 전국 약국 체인 및 의료진 연계 서비스 확장
-
----
-
 ## 📂 Repository Structure
 
 ### 🗂 Our Repositories
@@ -235,6 +184,31 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white)
 
+</div>
+
+---
+
+## 🎨 Screenshots
+
+### 🏠 홈
+<div align="center">
+  <img src="../screenshots/home.png" width="50%" alt="홈">
+</div>
+
+### 📈 리포트
+<div align="center">
+  <img src="../screenshots/report.png" width="50%" alt="리포트">
+</div>
+
+### 💬 AI 챗봇
+<div align="center">
+  <img src="../screenshots/chat.png" width="50%" alt="AI 챗봇">
+</div>
+
+### 🧑‍🧑‍🧒‍🧒 가족 구성원 관리
+<div align="center">
+  <img src="../screenshots/managing.png" width="50%" alt="가족 구성원 관리">
+  <img src="../screenshots/medicine.png" width="50%" alt="구성원 약물 관리">
 </div>
 
 ---
