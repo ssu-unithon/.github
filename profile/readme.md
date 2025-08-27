@@ -12,7 +12,7 @@
 
 ---
 
-## 🔗 Pillink Project
+## 🔗 Pillink
 
 > **"고령층의 복약 관리와 약물 상호작용을 가족이 실시간으로 모니터링하고 지원하는 헬스케어 앱"**
 
@@ -22,26 +22,25 @@
 - 🧓 65세 이상 시니어 다약제 복용률 높아 약물 부작용·상호작용 및 복용 누락 위험 증가
 - 📊 75세 이상 노인 중 70.2%가 3개월 이상 5개 이상의 약물을 만성 복용 (OECD 최고수준)
 - 👨‍👩‍👧‍👦 서로 다른 의료기관 처방으로 통합 관리 부재, 가족·의료진이 실시간 확인 어려움
-- ⚠️ 10종 이상 약제 복용 시 부작용 발생 가능성 거의 100%
 
 **Solution**: 
 AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 통한 **안전하고 지속적인 복약 관리 플랫폼**
 
-### 🏗 Architecture Overview
+### 🏗 아키텍처 요약
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend      │───▶│   Backend API   │───▶│  Flask Service  │
-│  (TypeScript)   │    │  (TypeScript)   │    │    (Python)     │
+│   Frontend      │───▶│     Backend     │───▶│  Flask Service  │
+│ (React Native)  │    │    (Nest.js)    │    │    (Python)     │
 │                 │    │                 │    │                 │
-│ • 사용자 인터페이스  │    │ • RESTful API   │    │ • AI 약물 분석    │
-│ • 반응형 디자인     │    │ • 인증/권한관리    │    │ • 상호작용 검증     │
+│ • User Interface│    │ • RESTful API   │    │ • AI Analysis   │
+│ • Responsive UI │    │ • Auth & Roles  │    │ • Interaction Check│
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
 ---
 
-## 🎪 UNITHON 상세 기획
+## 🎪 상세 기획
 
 ### 💡 핵심 아이디어 
 
@@ -113,7 +112,7 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 
 ---
 
-## 📂 Repository Structure
+## 📂 레포지토리 구조
 
 ### 🗂 Our Repositories
 
@@ -121,7 +120,7 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 <tr>
 <td width="50%">
 
-#### 🎨 Frontend
+#### 🎨 프론트엔드
 **[Pillink](https://github.com/ssu-unithon/Pillink)**
 - **Language**: TypeScript + React Native
 - **Features**: 시니어 친화적 UI, 실시간 동기화
@@ -130,7 +129,7 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 </td>
 <td width="50%">
 
-#### ⚙️ Backend API
+#### ⚙️ 백엔드 API
 **[Pillink-Backend](https://github.com/ssu-unithon/Pillink-Backend)**  
 - **Language**: TypeScript + NestJS
 - **Features**: 
@@ -143,7 +142,7 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 <tr>
 <td width="50%">
 
-#### 🐍 AI-Powered Analysis Service
+#### 🐍 AI 분석 서비스
 **[Pillink-Flask](https://github.com/ssu-unithon/Pillink-Flask)**
 - **Language**: Python + Flask
 - **AI Features**: 
@@ -158,23 +157,23 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 기술 스택
 
 <div align="center">
 
-### Frontend Development
+### Frontend
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-### Backend Development
+### Backend
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A8?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
-### AI/ML Technologies
+### AI/ML
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
@@ -188,7 +187,7 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 
 ---
 
-## 🎨 Screenshots
+## 🎨 스크린샷
 
 ### 🏠 홈
 <div align="center">
@@ -225,7 +224,7 @@ AI 기반 약물 상호작용 분석과 보호자-대상자 실시간 연동을 
 
 ---
 
-## 🏆 UNITHON 성과 및 학습
+## 🏆 성과 및 학습
 
 ### 📊 정량적 성과
 
